@@ -1,0 +1,14 @@
+Tic Tac Toe Project from the TOP Ruby Module for OOP
+
+Game class file:
+    CLASS Game
+        INITALIZE 
+            assign board variable as numbers in a nested list
+        END
+
+        DEFINE print board
+            
+
+Player class file:
+    CLASS Player
+

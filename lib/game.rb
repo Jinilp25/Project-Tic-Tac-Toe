@@ -86,13 +86,13 @@ class Game
 
     def row_numbers(row)
       board_data = get_board_data
-      if row == 0
-        "#{board_data[0]} | #{board_data[1]} | #{board_data[2]}"
-      elsif row == 1
-        "#{board_data[3]} | #{board_data[4]} | #{board_data[5]}"
-      else
-        "#{board_data[6]} | #{board_data[7]} | #{board_data[8]}"
+      index = 0
+      if row == 1
+        index = 3
+      elsif row == 2
+        index = 6
       end
+      "#{board_data[index]} | #{board_data[index+1]} | #{board_data[index+2]}"
     end
 
     def display_board

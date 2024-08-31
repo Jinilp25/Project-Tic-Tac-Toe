@@ -1,11 +1,12 @@
-class Player
+# frozen_string_literal: true
 
+class Player
   def initialize(player_name, player_marker)
     @player_name = player_name
     @player_marker = player_marker
     @marker_locations = []
   end
-  
+
   def get_player_marker
     @player_marker
   end
@@ -21,5 +22,4 @@ class Player
   def to_s
     @player_name
   end
-
 end

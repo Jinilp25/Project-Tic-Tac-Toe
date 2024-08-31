@@ -1,10 +1,12 @@
-require_relative "lib/game.rb"
+# frozen_string_literal: true
 
-print "Player 1 enter your user name: "
+require_relative 'lib/game'
+
+print 'Player 1 enter your user name: '
 player1_name = gets.chomp
 puts "Player 1 name set to #{player1_name}"
 
-print "Player 2 enter your user name: "
+print 'Player 2 enter your user name: '
 player2_name = gets.chomp
 puts "Player 2 name set to #{player2_name}"
 
